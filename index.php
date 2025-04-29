@@ -9,8 +9,6 @@ $db="go_adm";
 $conn = mysqli_connect($host, $user, $pass, $db);
 
 
-
-
 if(isset($_POST['btnNew'])){
     $realname = $_POST['realname'];
     $username = $_POST['username'];
